@@ -11,7 +11,7 @@
 @apply text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
 }
 .header-text{
-    @apply font-serif font-bold text-3xl mx-44 tracking-wide  sm:text-4xl md:text-4xl sm:mx-36 md:mx-36 lg:mx-24 sm:tracking-wide md:tracking-wider lg:text-5xl;
+    @apply font-serif font-bold text-xl mx-32 tracking-wide  sm:text-2xl md:text-2xl sm:mx-24 md:mx-24 lg:mx-8 sm:tracking-wide md:tracking-wider lg:text-3xl;
 }
 
 @tailwind utilities;
