@@ -1,4 +1,4 @@
-function checkThala(tabName) {
+function checkThala() {
    
     //Fetch the input
     let userInput = document.getElementById('inputField').value.trim();
@@ -16,9 +16,9 @@ function checkThala(tabName) {
         if (sum == 7) {
             confettiAnimation();
             Swal.fire({
-                title: "The Message is clear!!!",
+                title: "The Message is clear!!! <br> Thala for a Reason",
                 text: "Thala For A Reason!",
-                html: '<video autoplay muted loop class="text-center"><source src="/assests/correct.mp4" type="video/mp4"></video>',       
+                html: '<video autoplay loop class="text-center"><source src="/assests/correct.mp4" type="video/mp4"></video>',       
                  showCloseButton: true,
                 focusConfirm: true,
                 confirmButtonText: '<i class="fa fa-thumbs-up"></i> Great!',
