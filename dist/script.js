@@ -13,10 +13,10 @@ function checkThala() {
     let sum = digitArray.reduce((a , b) => a + b, 0)
     
     //To check condition
-        if (sum == 7 || userInput.length === 7) {
+        if (sum == 7 ) {
             confettiAnimation();
             Swal.fire({
-                title: "The Message is clear!!! <br> Thala for a Reason",
+                title: `Your message ${userInput.split("").join(" + ")} = 7 .The Message is clear!!! <br> Thala for a Reason`,
                 text: "Thala For A Reason!",
                 html: '<video autoplay loop class="text-center"><source src="/dist/assests/correct.mp4" type="video/mp4"></video>',       
                  showCloseButton: true,
@@ -25,6 +25,18 @@ function checkThala() {
                 confirmButtonAriaLabel: 'OK',
             });
         } 
+        else if(userInput.length === 7){
+            confettiAnimation();
+            Swal.fire({
+                title: `Your message ${userInput.split("").join(" + ")} = 7 letters.The Message is clear!!! <br> Thala for a Reason`,
+                text: "Thala For A Reason!",
+                html: '<video autoplay loop class="text-center"><source src="/dist/assests/correct.mp4" type="video/mp4"></video>',       
+                 showCloseButton: true,
+                focusConfirm: true,
+                confirmButtonText: '<i class="fa fa-thumbs-up"></i> Great!',
+                confirmButtonAriaLabel: 'OK',
+            });
+        }
 
         else {
             Swal.fire({
