@@ -18,7 +18,7 @@ function checkThala() {
             Swal.fire({
                 title: "The Message is clear!!! <br> Thala for a Reason",
                 text: "Thala For A Reason!",
-                html: '<video autoplay loop class="text-center"><source src="/assests/correct.mp4" type="video/mp4"></video>',       
+                html: '<video autoplay loop class="text-center"><source src="/dist/assests/correct.mp4" type="video/mp4"></video>',       
                  showCloseButton: true,
                 focusConfirm: true,
                 confirmButtonText: '<i class="fa fa-thumbs-up"></i> Great!',
@@ -30,7 +30,7 @@ function checkThala() {
             Swal.fire({
                 title: "Wrong!",
                 text: "Not Thala For A Reason!",
-                imageUrl: "/assests/gg.jpg",
+                imageUrl: "/dist/assests/gg.jpg",
                 imageWidth: 400,
                 imageHeight: 250,
                 imageAlt: "Not Thala"
