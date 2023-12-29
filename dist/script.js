@@ -13,7 +13,7 @@ function checkThala() {
     let sum = digitArray.reduce((a , b) => a + b, 0)
     
     //To check condition
-        if (sum == 7) {
+        if (sum == 7 || userInput.length === 7) {
             confettiAnimation();
             Swal.fire({
                 title: "The Message is clear!!! <br> Thala for a Reason",
@@ -32,7 +32,7 @@ function checkThala() {
                 text: "Not Thala For A Reason!",
                 imageUrl: "/dist/assests/gg.jpg",
                 imageWidth: 400,
-                imageHeight: 250,
+                imageHeight: 200,
                 imageAlt: "Not Thala"
             });
             
