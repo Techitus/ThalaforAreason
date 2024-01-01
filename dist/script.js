@@ -11,7 +11,7 @@ function checkThala() {
 
     //To calculate the sum of the digits
     let sum = digitArray.reduce((a , b) => a + b, 0)
-    
+
     //To check condition
         if (sum == 7 ) {
             confettiAnimation();
@@ -25,6 +25,7 @@ function checkThala() {
                 confirmButtonAriaLabel: 'OK',
             });
         } 
+       
         else if(userInput.length === 7){
             confettiAnimation();
             Swal.fire({
