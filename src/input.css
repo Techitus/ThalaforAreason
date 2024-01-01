@@ -10,9 +10,7 @@
 .btn-secondary{
 @apply text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
 }
-.header-text{
-    @apply font-serif text-sm font-bold tracking-wide ml-40  sm:text-xl md:text-2xl sm:ml-16 md:ml-16 lg:ml-16 sm:tracking-wide md:tracking-wider xl:tracking-wider lg:text-2xl xl:text-3xl xl:ml-16 2xl:ml-16;
-}
+
 
   
 @tailwind utilities;
