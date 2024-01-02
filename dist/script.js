@@ -24,6 +24,7 @@ function checkThala() {
                 confirmButtonText: '<i class="fa fa-thumbs-up"></i> Great!',
                 confirmButtonAriaLabel: 'OK',
             });
+           
         } 
        
         else if(userInput.length === 7){
@@ -37,6 +38,7 @@ function checkThala() {
                 confirmButtonText: '<i class="fa fa-thumbs-up"></i> Great!',
                 confirmButtonAriaLabel: 'OK',
             });
+            
         }
 
         else {
@@ -50,6 +52,7 @@ function checkThala() {
             });
             
         }
+        document.getElementById("inputField").value = "";
     }
     
     function confettiAnimation() {
@@ -72,5 +75,5 @@ function checkThala() {
             confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } }));
             confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } }));
         }, 250);
+        
     }
-    
